@@ -1,1 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+#header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#joker{
+    width: 80%;
+    margin-left: -8em;
+}
+#homepagebody{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#moviespagebody{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#tvshowspagebody{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#gamesandappsbody{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#collectionspagebody{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#feedbackpagebody{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+footer img{
+    width: 2rem;
+    margin-left: 1em;
+}
+
+footer{
+    display: inline-flex;
+    margin-top: 4em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+
+ul{
+    font-size: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10em;
+    padding-left: 0%;
+}
+
+#search{
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 20%;
+    height: auto;
+    justify-content: center;
+    margin-left: 8%;
+    float: right;
+}
+
+ul li{
+    display: inline-flex;
+    list-style-type:none;
+    padding: 5%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+#header ul li a:hover{
+    background:linear-gradient(56deg, red, rgb(245, 14, 52)) ;
+}
+
+#banner{
+    width: 100%;
+    height: auto;
+}
+
+article{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    left: 4%;
+    top: 8%;
+    overflow: hidden;
+    color: ghostwhite;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+article img{
+    width: 100%;
+    height:auto;
+}
+
+p{
+    color: ghostwhite;
+}
+
+#pfooter{
+    float: left;
+    padding-left: 3em;
+}
+
+h1{
+    font-size: 150%;
+    color: red;
+    text-align: justify;
+    margin-left: 1em;
+}
+
+#ur{
+    padding-top: 2em;
+}
+
+figure img{
+    width: 100%;
+    padding: 20%;
+    margin-right: 5em;
+}
+    
+
+.caption{
+    text-align: center;
+    margin-top: -2em;
+    margin-bottom: 3em;
+}    
+
+.caption2{
+    text-align: center;
+    margin-top: 0em;
+}
+
+#feedbackform{
+    width: 80%;
+    margin: auto;
+    padding-top: 10%;  
+}
+
+fieldset{ 
+    padding-top: 5%;
+}
+
+legend{
+    border: 0px;
+    color: rgb(245, 14, 14);
+}
+
+label{
+    display:inline-flex;
+    width: 20%;
+    vertical-align: top;
+    text-align: right;
+    color: ghostwhite;
+}
+
+label::after{
+    content: " : ";
+}
+select,
+textarea,
+input[type="tel"],
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="address"],
+input[type="password"]{
+    width: 80%;
+    padding: 2px;
+    border: 1px solid #b8d8d8;
+    border-radius:3px;
+    font-size: 15px;
+    height: 28px;
+    margin-bottom: 5px;
+    color: rgb(139, 0, 76);
+}
+
+button, 
+input[type='reset'], 
+input[type='button'],
+input[type='submit'] {
+    min-width: 100px;
+    height: 33px;
+    background-color: #5ba3e0;
+    border: #2e6da4;
+    font-family: Arial, Geneva, Arial, Helvetica,  sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 3px;
+    line-height: 1.2;
+    text-decoration:none;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-bottom: 10px;
+    border: 1px solid  #b8d8d8;;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: green;  /* old IE */
+    background-color: green;  /* Modern Browsers */
+}
+
 
