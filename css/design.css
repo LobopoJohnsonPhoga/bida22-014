@@ -111,18 +111,41 @@ ul li a:hover{
     .navbar ul {
       flex-direction: column;
       align-items: flex-start;
-      background-color: red;
     }
   
     .navbar li {
       margin: 10px 0;
     }
+    main {
+        max-width: 100%;
+        margin: 4% auto;
+        padding: 3%
+      }
+      
+      .movie-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        line-height: 2em;
+      }
+      
+      .movie-info img {
+        width: 200px;
+        margin-right: 20px;
+      }
+      
+      .movie-details {
+        font-size: 16px;
+      }
+      
+      .movie-details h2 {
+        margin-top: 0;
+      }
+      
+      .movie-cast h2 {
+        margin-top: 0;
+      }
     
-    .caption{
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 3em;
-}    
   }
 
 #search{
@@ -270,6 +293,44 @@ hr{
     background-color: green;  /* Modern Browsers */
 }
 
+#movie-info{
+    float: right;
+    display: block;
+    margin-right: 10em;
+    line-height: 4em;
+    align-content: center;
+    justify-content: center;
+}
 
-
-
+  
+  main {
+    max-width: 100%;
+    margin: 4% auto;
+    padding: 3%
+  }
+  
+  .movie-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    line-height: 2em;
+  }
+  
+  .movie-info img {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .movie-details {
+    font-size: 16px;
+  }
+  
+  .movie-details h2 {
+    margin-top: 0;
+  }
+  
+  .movie-cast h2 {
+    margin-top: 0;
+  }
+  
+  
